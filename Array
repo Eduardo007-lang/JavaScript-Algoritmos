@@ -1,0 +1,30 @@
+// 1 - Array e um objeto Global do JavaScript
+
+// 2 - Array sao objetos que contem, nativamente, metodos embutidos para realizar diversos tipos de operacao
+
+// 3 - Sao homogeneas, aceitam diversos tipos de dados dentro dela do mesmo valor
+//     Exemplo: array -> [1],[2],[2],[2] -> Como pode ser visto, nas "caixas" temos 
+//     apenas valores do tipo numerico, ou seja, se adicionar mais uma caixinha com um valor diferente
+//     de numerico, dara erro, pois uma lista/array so receberar valores do mesmo tipo;
+
+// 4 - Ele nao tem um tamnho fixo.
+
+// 5 - Os dados nao sao armazenados contiguamente, ou seja eles podem ser armazenados semparados porem 
+// o espaco vazio sera preenchido por valor "underfined";
+
+// 6 - O indices de uma array sao sao acessados por meio de numeros 
+// Exemplo: array = []
+/*         array = [1, 2, 3, 4]
+
+             ==>[indices]
+            ||     
+      array[0] -> 1
+      array[1] -> 2
+
+      Obs: O indice se inicia no valor 0;
+
+*/
+
+// 7 - acessar o tamanho do array e pela propriedade nativa lengh. Exemplo: array.lengh
+// obs: a contagem e por meio de elementos, se tenho 1, inicia a contagem com 1 e se tenho 2, faz a contagem
+// iniciando no numeral 1 ate 2 e etc...
