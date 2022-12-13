@@ -1,0 +1,68 @@
+// // Em javaScript um array e uma lista de elementos ordenadas, e cada elemento e especifcado por indices
+
+
+// //Array construtor 
+
+// // let scores = new Array();
+
+// // scores.push(1, 2, 3);
+
+// // console.log(scores);
+// //----------------------------------------//
+
+
+// //Array de notacao literal;
+
+// // let arrayLiteral = [];
+
+// // arrayLiteral = [1, 2, 3, 4];
+
+// // console.log(arrayLiteral);
+
+// //----------------------------------------
+
+// // Acessando um elemento de uma array 
+// // os indices de uma array se inicia no valor 0 que indica o primeiro elemnto e o valor 1 indica o segundo elemento
+// // E assim por diante.
+
+// let mountains = ['Everest', 'Fuji', 'Nanga Parbat'];
+
+// //Alterando o valor de um elemento;
+
+// mountains[1] = 'k2';
+// console.log(mountains[0]);//Everest
+// console.log(mountains[1]);//Fuji
+// console.log(mountains[2]);//Nanga Parbat
+
+// //Obtendo o tamanho da matriz/array usando a propriedade length
+
+// console.log(mountains.length);
+
+// //Operacoes basicas em arrays 
+// // map(), filter(), reduce()
+
+
+// Adicionando um elemento no final de uma array .push
+
+// let pilha = [];
+
+// pilha.push('Elemento 1');
+// pilha.push('Elemento 2');
+// pilha.push('Elemento 3');
+
+
+// pilha.unshift('Elemento 0');
+
+// //Removendo o ultimo elemento de uma array 
+
+// let elementos = pilha.pop();
+
+// // removendo o primeiro elemento de uma array
+
+// elementos = pilha.shift();
+
+// console.log(elementos);
+
+//=============================//
+
+//Encontrando o indice de um elemento no array
