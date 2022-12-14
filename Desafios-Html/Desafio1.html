@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio</title>
+</head>
+<body>
+        <input type="button" value="Click here" id = "btn1">
+        
+
+        <div id="box">
+                Results are
+        </div>
+</body>
+    <Script>
+
+
+    
+            let btn = document.querySelector("#btn1");
+            btn.addEventListener("click", generator);
+
+            function generator() {
+
+                 let conteiner = document.querySelector("#box");
+               
+
+                 let cont = 10;
+                 let array = [];
+                 let sum = 0;
+
+                 for (let i = 0; i <= 10; i++) {
+
+                      array[i] = Math.floor(Math.random() * 100);
+
+                      sum += array[i];
+                    
+                    }
+
+                 let max = Math.max(...array);
+                 let min = Math.min(...array);
+                 let div = sum / array.length;
+                 let correct = div.toFixed(2);
+
+                
+                 conteiner.innerHTML = `Numeros Gerados: ${array}.</br>
+                                        Maior numero: ${max}.</br>
+                                        Menor numero: ${min}.</br>
+                                        Media dos numeros: ${correct}.</br>
+                                        Soma dos numeros: ${sum}.</br>`;
+                 
+
+            }
+
+    </Script>
+</html>
