@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio01</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <h1>JavaScript</h1>
+</body>
+<script>
+    let ano_nascimento = prompt("Digite a seu ano de nascimento: ");
+    let convert_nascimento = parseInt(ano_nascimento);
+    let ano_atual = new Date().getFullYear();
+
+    let idadeAno = ano_atual - convert_nascimento;
+    let idadaMes = idadeAno * 12;
+    let idadeDias = idadeAno * 365;
+    let idadeSemana = idadeAno * 52;
+
+    
+    alert(`Idade em anos: ${idadeAno} anos\n 
+            Idade em meses: ${idadaMes} meses\n 
+            Idade em dias: ${idadeDias}\n
+            Idade em semanas: ${idadeSemana}.`);
+</script>
+</html>
